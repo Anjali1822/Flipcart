@@ -7,8 +7,49 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Your website content goes here -->
-  
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Flipkart Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <button id="searchButton">Search</button>
+    </div>
+
+    <div id="productList">
+      <!-- Product items will be dynamically added here -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
+
